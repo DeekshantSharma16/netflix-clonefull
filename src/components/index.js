@@ -1,11 +1,4 @@
-import React from 'react';
-import {render} from 'react-dom';
-import 'normalize.css';
-import App from './app';
-import {GlobalStyles} from './global-style';
-
-
-render(<><GlobalStyles /><App /></>,document.getElementById('root'));
-
-
-
+export { default as Accordion} from './accordion';
+export { default as Jumbotron} from './jumbotron';
+export { default as Footer} from './footer';
+export { default as Header} from './header';
