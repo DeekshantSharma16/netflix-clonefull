@@ -34,7 +34,7 @@ export function ProtectedRoute({ user, children, ...rest }) {
           if (user) {
             return children;
           }
-  
+
           if (!user) {
             return (
               <Redirect
@@ -45,7 +45,7 @@ export function ProtectedRoute({ user, children, ...rest }) {
               />
             );
           }
-  
+
           return null;
         }}
       />
